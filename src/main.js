@@ -91,7 +91,7 @@ function handlerStart() {
           const instance = basicLightbox.create(
             `<h1>${isWinner ? 'Winner' : 'Loser'}</h1>`
           );
-          instance.Show();
+          instance.show();
         }
       }, 1000 * (idx + 1));
     });
