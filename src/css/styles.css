@@ -21,3 +21,13 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.js-container {
+  display: flex;
+}
+
+.item {
+  border: 1px solid #242424;
+  width: 100px;
+  height: 100px;
+}
