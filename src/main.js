@@ -36,6 +36,4 @@
 // const currentDate = new Date();
 // console.log(currentDate);
 
-const elements = {
-    day:
-};
+const elements = {};
