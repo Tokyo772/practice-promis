@@ -20,7 +20,7 @@
 /* Задача */
 
 const elements = {
-  searchForm: document.querySelector('.js-search-from'),
+  searchForm: document.querySelector('.js-search-form'),
   list: document.querySelector('.js-list'),
 };
 
