@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    <title>Document</title>
+    <script type="module" crossorigin src="/practice-promis/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/practice-promis/assets/styles-77b501fc.js">
+    <link rel="stylesheet" href="/practice-promis/assets/styles-a990800f.css">
+  </head>
+  <body>
+    <a href="./index.html">Go to Home</a>
+    <br />
+    <form action="submit" class="js-search-from search-form">
+      <div class="form-group">
+        <label for="city" class="label">Введіть назву міста!</label>
+        <input type="text" name="city" class="search-input" required />
+      </div>
+      <div class="form-group">
+        <label for="days" class="label">Виберіть кількість днів! </label>
+        <div class="input-group">
+          <select name="days" class="days-select">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+          </select>
+          <button class="search-button">Пошук</button>
+        </div>
+      </div>
+    </form>
+    <ul class="js-list weather-cards"></ul>
+  </body>
+</html>
