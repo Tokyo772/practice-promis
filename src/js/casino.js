@@ -1,4 +1,5 @@
 import * as basicLightbox from 'basiclightbox';
+
 const selectors = {
   spinBtn: document.querySelector('.js-start'),
   container: document.querySelector('.js-container'),
