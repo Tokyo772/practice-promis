@@ -8,25 +8,27 @@
     <title>Document</title>
   </head>
   <body>
-    <a href="./index.html">Go to Home</a>
-    <br />
-    <form action="submit" class="js-search-from search-form">
-      <div class="form-group">
-        <label for="city" class="label">Введіть назву міста!</label>
-        <input type="text" name="city" class="search-input" required />
-      </div>
-      <div class="form-group">
-        <label for="days" class="label">Виберіть кількість днів! </label>
-        <div class="input-group">
-          <select name="days" class="days-select">
-            <option value="3">3</option>
-            <option value="5">5</option>
-            <option value="7">7</option>
-          </select>
-          <button class="search-button">Пошук</button>
+    <div class="container-weather">
+      <a href="./index.html">Go to Home</a>
+      <br />
+      <form action="submit" class="js-search-from search-form">
+        <div class="form-group">
+          <label for="city" class="label">Введіть назву міста!</label>
+          <input type="text" name="city" class="search-input" required />
         </div>
-      </div>
-    </form>
-    <ul class="js-list weather-cards"></ul>
+        <div class="form-group">
+          <label for="days" class="label">Виберіть кількість днів! </label>
+          <div class="input-group">
+            <select name="days" class="days-select">
+              <option value="3">3</option>
+              <option value="5">5</option>
+              <option value="7">7</option>
+            </select>
+            <button class="search-button">Пошук</button>
+          </div>
+        </div>
+      </form>
+      <ul class="js-list weather-cards"></ul>
+    </div>
   </body>
 </html>
