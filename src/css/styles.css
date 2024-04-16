@@ -154,3 +154,49 @@ a {
   font-size: 20px; /* Adjust this value as needed */
   color: #333; /* Sets the text color */
 }
+
+/* index */
+/* Base styles for the body to ensure proper font sizing and family */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* General link styling */
+.link-casino,
+.link-http {
+  color: #007bff; /* Bootstrap blue for familiarity */
+  text-decoration: none; /* Removes underline */
+  font-size: 18px; /* Slightly larger for better readability */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.link-casino:hover,
+.link-http:hover,
+.link-casino:focus,
+.link-http:focus {
+  color: #0056b3; /* Darker blue on hover/focus for visibility */
+  text-decoration: underline; /* Adds underline on hover/focus */
+}
+
+/* Adding some spacing and a modern look for links */
+.link-casino,
+.link-http {
+  display: inline-block; /* Allows margin and padding adjustments */
+  margin: 10px 0; /* Spacing around links */
+  padding: 8px 16px; /* Padding for better clickability */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Enhancing focus for accessibility */
+.link-casino:focus,
+.link-http:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 75, 255, 0.5); /* Adds a blue glow */
+}
