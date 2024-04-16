@@ -31,3 +31,71 @@
   width: 100px;
   height: 100px;
 }
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  display: flex;
+  width: 360px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #4e75ff;
+
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+.days-select {
+  border-radius: 4px;
+  border: 1px solid #4e75ff;
+
+  padding: 10px;
+}
+
+.weather-cards {
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 200px;
+  background-color: lightblue;
+  border: 1px solid #e7e9fc;
+  border-radius: 20px;
+}
+.temperature {
+  color: rgb(168, 34, 25);
+}
