@@ -1,0 +1,89 @@
+/* Slot machine container */
+.slot-machine {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  width: 300px;
+  margin: 50px auto;
+}
+
+/* Spin button styling */
+.js-start {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #0066cc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.js-start:hover {
+  background-color: #0056b3;
+}
+
+/* Slot container */
+.js-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* Individual item styling */
+.item {
+  width: 50px;
+  height: 50px;
+  background-color: #ddd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px; /* Adjust this value as needed */
+  color: #333; /* Sets the text color */
+}
+
+/* index */
+/* Basic styling for the body and headings */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #863c3c;
+}
+
+/* Navigation link styling */
+.nav-link {
+  display: inline-block;
+  margin: 20px;
+  text-decoration: none;
+  color: #007bff;
+  text-align: center;
+}
+
+.nav-image {
+  width: 100px; /* Set appropriate size for the images */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.nav-link span {
+  display: block;
+  margin-top: 8px;
+}
+
+/* Hover effect to enhance visual feedback */
+.nav-link:hover .nav-image,
+.nav-link:focus .nav-image {
+  transform: scale(1.05);
+  cursor: pointer;
+}

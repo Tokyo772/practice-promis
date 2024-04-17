@@ -1,0 +1,87 @@
+/* General container styles */
+.container-weather {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Link styling */
+a {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.search-input,
+.days-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; /* Makes sure padding doesn't affect width */
+}
+
+.search-button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.search-button:hover {
+  background-color: #003d82;
+}
+
+/* Weather card styling */
+.weather-cards {
+  list-style-type: none;
+  padding: 0;
+}
+
+.weather-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.weather-card img {
+  width: 50px;
+  margin-right: 15px;
+}
+
+.date,
+.weather-text,
+.temperature {
+  margin: 5px 0;
+}
+
+.home-link {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0077ff;
+  text-decoration: none;
+  font-size: 18px;
+}
